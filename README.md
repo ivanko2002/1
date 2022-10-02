@@ -1,6 +1,4 @@
 
-- [Team 10](#team-10)
-  - [Presentation](#presentation)
 # Team 10
 Structure:
 - [AI Model](aimodel/)
