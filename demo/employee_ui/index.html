@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Voice Controlled Notes App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shoelace-css/1.0.0-beta16/shoelace.css">
+       
+ 
+    </head>
+    <body>
+        <div class="container">
+ 
+           
+            <div class="app">
+                <h3>Face To Face Interview Record</h3>
+                <div class="input-single">
+                    <textarea id="note-textarea"  rows="6"></textarea>
+                </div>      
+           
+                <!--<button id="statusCheck">Click to check the status </button>-->
+                <!--<button id="Record">Record</button>
+                <button id="Stop">Stop Record</button>-->
+                
+                <button id="start-record-btn" title="Start Recording" style="background-color: #cf627b;">Start Recording</button>
+                <button id="pause-record-btn" title="Pause Recording" style="background-color: #cf627b;">Stop Recording</button>
+                <button id="save-note-btn" title="Save Note" style="background-color: #cf627b;">Save Note</button>  
+                <p id="recording-instructions">Press the <strong>Start Recording</strong> button and start your speech</p>
+                
+                <h3>Save Text</h3>
+                <ul id="notes">
+                    <li>
+                        <p class="no-notes">You don't have any notes.</p>
+                    </li>
+                </ul>
+ 
+            </div>
+ 
+        </div>
+ 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+ 
+        
+ 
+    </body>
+</html>
+
